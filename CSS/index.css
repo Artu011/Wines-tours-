@@ -1,0 +1,430 @@
+/*Inicio estilos index*/
+
+
+body.index {
+  background-color: #012C4B;
+  background-image: url('Images/Actualidad_261985949_54046690_1024x576.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 25px;
+}
+
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+
+
+h1 {
+  background-color: rgb(0, 0, 65);
+  color: rgb(192, 120, 120);
+  padding-left: 150px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: system-ui;
+  text-transform: capitalize;
+}
+
+li a:hover {
+  background-color: rgb(8, 8, 8);
+}
+
+h2 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+h3 {
+  text-decoration: solid;
+}
+
+article {
+  font-size: large;
+  font-style: oblique;
+  font-weight: 400;
+}
+
+footer {
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #121212;
+  color: white;
+}
+
+/*Fin Estilos index*/
+
+
+
+
+
+
+
+
+/*Inicio Estilos BODEGAS*/
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #ffffff;
+  padding: 5px;
+}
+.grid-item {
+  background-color: #3F3351;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 100px;
+  font-size: 60px;
+  text-align: center;
+}
+
+.grid-container {
+ display: grid;
+ row-gap: 50px;
+  
+}
+
+body.estilo-bodega {
+  background-color:#012C4B;
+  background-position: cover;
+  background-repeat: no-repeat;
+  font-family:sans-serif;
+}
+
+
+
+h1 {
+  background-color: rgb(9, 9, 214);
+  color: rgb(192, 120, 120);
+  padding-left: 150px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  border-radius: 4em;
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 50px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(29, 21, 21);
+}
+
+
+footer {
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #121212;
+  color: white;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 30px 30px 30px;
+  grid-template-rows: 50px 50px 50px;
+  gap: 40px 40px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". header_container ."
+    ". main_container ."
+    ". footer_container .";
+}
+
+.header_container {
+  grid-area: header_container;
+}
+
+.main_container {
+  display: grid;
+  grid-template-columns: 30px 30px 30px;
+  grid-template-rows: 3fr;
+  grid-auto-columns: 3fr;
+  gap: 10px 10 px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "Bodega_Bianchi Bodega_Alfredo_Roca Bodega_La_Abeja";
+  grid-area: main_container;
+}
+
+.Bodega_Bianchi {
+  grid-area: Bodega_Bianchi;
+
+}
+
+.Bodega_Alfredo_Roca {
+  grid-area: Bodega_Alfredo_Roca;
+}
+
+.Bodega_La_Abeja {
+  grid-area: Bodega_La_Abeja;
+}
+
+
+/*Fin Estilos BODEGAS*/
+
+/*Inicio Estilos CONTACTO*/
+body {
+  background-color: rgb(0, 0, 0);
+}
+
+h1 {
+  background-color: rgb(0, 0, 65);
+  color: rgb(192, 120, 120);
+  padding-left: 150px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+}
+
+
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(29, 21, 21);
+}
+
+article {
+  font-size: large;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
+  font-style: italic;
+  display: contents;
+  box-sizing: content-box;
+}
+
+li a {
+  color: rgb(255, 255, 255);
+}
+
+
+footer {
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #121212;
+  color: white;
+}
+
+
+/* Fin estilo CONTACTO*/
+
+/*Inicio Estilos QUIENES SOMOS¨*/
+body {
+  background-color: rgb(0, 0, 0);
+}
+
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+
+
+h1 {
+  background-color: rgb(0, 0, 65);
+  color: rgb(192, 120, 120);
+  padding-left: 150px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+}
+
+
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(29, 21, 21);
+}
+
+article {
+  font-size: large;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
+  font-style: italic;
+  display: contents;
+  box-sizing: content-box;
+}
+
+li a {
+  color: rgb(255, 255, 255);
+
+}
+
+
+footer {
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #121212;
+  color: white;
+}
+
+
+/* Fin Estilos QUIENES SOMOS*/
+
+/*Inicio Estilos PREGUNTAS FRECUENTES*/
+
+
+body {
+  background-color: rgb(0, 0, 0);
+}
+
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+
+
+h1 {
+  background-color: rgb(0, 0, 65);
+  color: rgb(192, 120, 120);
+  padding-left: 150px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 100, 100, 100, 100;
+  overflow: hidden;
+  /* background-color: rgb(87, 7, 7); */
+  margin: 30px;
+  border-radius: 2em;
+  border: 10px white;
+  text-align: center;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(29, 21, 21);
+}
+
+article {
+  font-size: large;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
+  font-style: italic;
+  display: contents;
+  box-sizing: content-box;
+}
+
+li a {
+  color: rgb(255, 255, 255);
+
+}
+
+
+footer {
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #121212;
+  color: white;
+}
+
+
+/*Fin Estilos PREGUNTAS FRECUENTES*/
